@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: 'Orelega One', cursive;
+}
+header{
+    width: 100%;
+    background-color: rgb(7, 13, 49);
+}
+#btn-menu {
+    display: none;
+}
+header label:hover {
+    cursor: pointer;
+    background: rgba(3, 9, 95, 0.3);
+}
+.Menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start
+}
+.Menu li{
+    flex-grow: 1;
+    text-align: center;
+    border-right: 2px solid white;
+}
+.Menu li:hover{
+    background: rgba(7, 6, 94, 0.3);
+}
+.Menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.Contenedor{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+}
+h1{
+    font-size: 28px;
+}

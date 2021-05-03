@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi materia favorita-Por qué es mi materia favorita</title>
+    <link rel="stylesheet" href="stilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+    .wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 570px;
+    }
+    .contenedor3{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    font-family: 'Sirin Stencil', cursive;
+    }
+    .motivo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cont-motivo{
+        width: 30%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .cont-motivo img{
+        width: 90%;
+        display: block;
+        margin:0 auto;
+        border-radius: 50%;
+    }
+    .t-motivo{
+        display: inline-block;
+        margin-top: 20px;
+        width: 100%;
+        font-weight: 400;
+        background-color: pink;
+    }
+    .subtitulo{
+        margin-top: 3%;
+        text-align: center;
+        font-family: 'Kenia', cursive;
+        color: crimson;
+    }
+
+</style>
+<body>
+    <div>
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"></label>
+            <nav class="Menu">
+                <ul>
+                    <li><a href="index.html" style="color: rgb(255, 255, 255);">Inicio</a></li>
+                    <li><a href="texto.html" style="color: rgb(255, 255, 255);">Qué es la química</a></li>
+                    <li><a href="porque.html" style="color: rgb(247, 247, 247);">Por qué es mi materia favorita</a></li>
+                    <li><a href="formulario.html" style="color: rgb(255, 255, 255);">Cuál es tu materia favorita</a></li>
+                </ul>
+            </nav>
+        </header> 
+    </div>
+    <div>
+        <h1 class="contenedor3">Por qué es mi materia favorita</h1>
+        <img width="100%" src="./quimica7.jpg" alt="fotodequimicos">
+        <svg preserveAspectRadio="none" class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="aquamarine" fill-opacity="1" d="M0,160L40,176C80,192,160,224,240,234.7C320,245,400,235,480,197.3C560,160,640,96,720,112C800,128,880,224,960,229.3C1040,235,1120,149,1200,133.3C1280,117,1360,171,1400,197.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+          </svg>
+    </div>
+    <section class="razones" id="razon">
+        <h2 class="subtitulo">Razones</h2>
+        <section class="motivo">
+            <div class="cont-motivo">
+            <img src="./undraw_medicine_b1ol.png" alt="quimicamedicina">
+            <h3 class="t-motivo">La química es escencial para el funcionamiento de las industrias relacionadas con los alimentos, medicina, cosméticos, electrónicos,etc. La química se vincula y ayuda a otras ciencias como la biología, la física, la matemática, la medicina, la farmacia o la informática. Por eso existen la bioquímica, la ingeniería química, la química médica, la química farmacéutica y la química computacional.</h3>
+            </div>
+            <div class="cont-motivo">
+             <img src="./undraw_science_fqhl.png" alt="quimicaimg">
+             <h4 class="t-motivo">Es una de las ciencias más divertidas, pues sus impredescibles experimentos podrán enseñarte sobre la reación de los diversos elementos de la tabla periódica. Definitivamente su carácter experimental es capaz de fascinarnos a todos. Esta ciencia juega un papel clave en el futuro de la humanidad, pues utiliza sus conocimientos para buscar soluciones al calentamiento global o a controlar la radiación nuclear. Es una ciencia que siempre ha tenido como objetivo beneficiar al mundo con sus descubrimientos.</h4>
+            </div>
+        </section>
+
+    </section>
+</body>
+</html>

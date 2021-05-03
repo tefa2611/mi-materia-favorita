@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi materia favorita</title>
+    <link rel="stylesheet" href="stilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        background-color: rgb(228, 228, 228);
+    }
+    .Imagen-colegio{
+        width: 400px;
+        border-radius: 60px;
+    }
+    .Foto-quimica{
+        width: 500px;
+        border-radius: 60px;
+    }
+    .Foto-ciudad{
+        width: 400px;
+        border-radius: 60px;
+    }
+    .Texto-quimica1{
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+    }
+    .Texto-yo{
+        font-family: 'Bad Script', cursive;
+        color: white;
+        text-align: center; 
+        margin-bottom: 20px;
+        line-height: 1.5;
+        font-weight: 300;
+    }
+    .Foto-personal{
+        border-radius: 60px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+    .Titulo-yo{
+        color: aquamarine;
+        text-align: left;
+        font-family: 'Bad Script', cursive;
+        margin: 50px;
+    }
+    .about{
+        min-height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 80px;
+        align-items: center;
+        justify-items: center;
+    }
+</style>
+<body>
+    <div>
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"></label>
+            <nav class="Menu">
+                <ul>
+                    <li><a href="index.html" style="color: rgb(255, 255, 255);">Inicio</a></li>
+                    <li><a href="texto.html" style="color: rgb(255, 255, 255);">Qué es la química</a></li>
+                    <li><a href="porque.html" style="color: rgb(247, 247, 247);">Por qué es mi materia favorita</a></li>
+                    <li><a href="formulario.html" style="color: rgb(255, 255, 255);">Cuál es tu materia favorita</a></li>
+                </ul>
+            </nav>
+        </header> 
+    </div>
+   
+    <div style="text-align: center; font-family:'Lobster', cursive; background-color: rgb(79, 155, 113);">
+       <img width="100%" src="./unnamed.jpg" alt="quimica">
+       <div class="Contenedor"><h1>Mi materia favorita</h1></div>
+       <p style="color: white; margin: 7px;">Mi nombre es Estefanía Quijano García, estudio en el colegios Las Margaritas que esta ubicado en Bogotá, estoy en grado décimo. Mi profesor de química se llama Alonso, es un profesor muy competente y en parte por el me empezó a gustar la química</p>
+      </div>
+      
+      <div>
+        <img class="Imagen-colegio" src="./las_margaritas4.jpeg" alt="colegio foto">
+        <img class="Foto-quimica" src="./ramas-quimica-social.jpg" alt="Foto quimica">
+        <img class="Foto-ciudad" src="./Bogotá_Colpatria_Night.jpg" alt="Foto ciudad">
+      </div>
+      
+      <div>
+       <p class="Texto-quimica1">La química es fundamental para nuestra comprensión del funcionamiento de la naturaleza, demás es divertidad y facil, tiene muchísimos temas interesantes.</p>
+      </div>
+      <div class="about" style="background-color: rgb(7, 13, 49);">
+        <h1 class="Titulo-yo">Sobre mí</h1>
+        <p class="Texto-yo">Soy Estefanía, tengo 15 años, soy estudiante del grado décimo y vivo en Bogotá. My animal favorito es el perro porque son tiernos y muy suaves. Me gusta ver películas y series, escuchar música, patinar, leer sobre casos medicos y estudiar química</p>
+        <img class="Foto-personal" src="./Foto tipo documento - Estefanía Quijano García.jpg" alt="foto personal">
+    </div>
+
+</body>
+</html>

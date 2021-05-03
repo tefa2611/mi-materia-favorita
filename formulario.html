@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi materia favorita-Cuál es tu materia favorita</title>
+    <link rel="stylesheet" href="stilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+</head>
+<style>
+body{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.contenedor7{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    }
+.imgprincipal{
+    width: 100%;
+}
+.Titulo{
+    text-align: center;
+}
+.Contenedor-Formulario{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Contenedor-Form{
+    width: 400px;
+    background:  rgb(7, 13, 49);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Swanky and Moo Moo', cursive;
+    box-shadow: 7px 13px 37px rgb(0, 0, 0);
+}
+.Contenedor-Form h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Barras{
+    width: 100%;
+    background:  rgb(7, 13, 49);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid  rgb(12, 20, 65);
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 18px;
+    color: white;
+}
+.Contenedor-Form button{
+    width: 100%;
+    background: rgb(9, 17, 61);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+}
+</style>
+<body>
+    <div>
+        <header>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"></label>
+            <nav class="Menu">
+                <ul>
+                    <li><a href="index.html" style="color: rgb(255, 255, 255);">Inicio</a></li>
+                    <li><a href="texto.html" style="color: rgb(255, 255, 255);">Qué es la química</a></li>
+                    <li><a href="porque.html" style="color: rgb(247, 247, 247);">Por qué es mi materia favorita</a></li>
+                    <li><a href="formulario.html" style="color: rgb(255, 255, 255);">Cuál es tu materia favorita</a></li>
+                </ul>
+            </nav>
+        </header> 
+    </div>
+    <div>
+        <h1 class="contenedor7">Cuál es tu materia favorita</h1>
+        <img class="imgprincipal" src="./esudiantes.jpg" alt="fotocolegio">
+    </div>
+    <div>
+        <form class="Contenedor-Form">
+            <h1 class="Titulos">Es tu turno, dinos, cuál es tu materia favorita</h1>
+            <div class="Contenedor-Formulario">
+                <label for="Contrasena">Contraseña</label>
+                <input class="Barras" type="password" id="Contrasena" name="Contrasena" placeholder="Por favor ingresa la contraseña" required>
+            </div>
+            
+            <div class="Contenedor-Formulario">
+                <label for="nombre">Nombre</label>
+                <input class="Barras" type="text" name="nombre" id="nombre" placeholder="Por favor ingresa tu nombre" required>
+            </div>
+           
+            <div class="Contenedor-Formulario">
+                <label for="apellido">Apellido</label>
+                <input class="Barras" type="text" name="apellido" id="apellido" placeholder="Por favor ingresa tu apelldio" required>
+            </div>
+           
+            <div class="Contenedor-Formulario">
+                <label for="Correo_electronico">Correo_electronico</label>
+                <input class="Barras" type="email" id="Correo_electronico" name="Correo_electronico" placeholder="Por favor deja tu correo" required>
+            </div>
+            <div class="Contenedor-Formulario">
+                <label for="nombre">Nombre de la materia</label>
+                <input class="Barras" type="text" id="nombre" name="nombre" placeholder="Ingresa el nombre de la materia" required>
+            </div>
+            
+            <div class="Contenedor-Formulario">
+                <label for="razones">Por qué es tu materia favorita</label>
+                <input class="Barras" type="text" name="razones" id="razones" placeholder="Ingresa tus razones" required>
+            </div>
+           
+            <div class="Contenedor-Formulario">
+                <button class="Boton-enviar"> Enviar </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
